@@ -1,1 +1,37 @@
 /*  your css code here. If applicable */
+/* Main container */
+.container {
+    width: 300px;
+    padding: 20px;
+    margin: 100px auto; /* Centers the container */
+    background-color: #d3d3d3;
+    border-radius: 20px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+/* Circle class */
+.circle {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+/* Red circle */
+.red {
+    background-color: red;
+}
+
+/* Yellow circle */
+.yellow {
+    background-color: yellow;
+}
+
+/* Green circle */
+.green {
+    background-color: green;
+}
